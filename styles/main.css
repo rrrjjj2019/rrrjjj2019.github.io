@@ -98,8 +98,8 @@ section h2 {
 
 footer {
     margin-top: 4rem;
-    background-color: #f7f7f7;
-    padding: 4rem;
+    background-color: #badbb123;
+    padding: 0.1rem;
     color: gray;
 }
 
@@ -133,7 +133,7 @@ footer {
     box-shadow:-3px -3px 9px pink;
 }
 
-@media (max-width: 575px){
+@media (max-width: 620px){
     #banner2{
         background-attachment: scroll;
     }
@@ -141,12 +141,12 @@ footer {
 
 @media(max-width: 992px){
     .container_shadow{
-        height:33rem;
+        height:42rem;
     }
 }
 
-@media(max-width: 575px){
+@media(max-width: 620px){
     .container_shadow{
-        height:38rem;
+        height:45rem;
     }
 }

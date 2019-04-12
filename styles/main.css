@@ -141,12 +141,12 @@ footer {
 
 @media(max-width: 992px){
     .container_shadow{
-        height:42rem;
+        height:45rem;
     }
 }
 
 @media(max-width: 620px){
     .container_shadow{
-        height:49rem;
+        height:53rem;
     }
 }

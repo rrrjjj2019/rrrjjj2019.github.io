@@ -207,7 +207,7 @@ footer {
     box-shadow:-3px -3px 9px pink;
 }
 
-@media (max-width: 620px){
+@media (max-width: 500px){
     #banner2{
         background-attachment: scroll;
     }

@@ -12,5 +12,5 @@
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
 // TODO add your tracking id here
-ga('create', 'tracking-id', 'auto');
+ga('create', 'UA-138417574-1', 'auto');
 ga('send', 'pageview');

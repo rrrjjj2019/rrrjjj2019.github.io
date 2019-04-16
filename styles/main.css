@@ -53,6 +53,23 @@ html, body {
     background-attachment: scroll;
 }
 
+@media(max-width:500px){
+    #why{
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    #why2{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    #why3{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+}
+
+
+
 #form_btn{
     background-color: rgb(20, 3, 3);
     color: aliceblue;

@@ -2,22 +2,36 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138417574-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138417574-1');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css"
+        integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <title>扭蛋地圖</title>
 </head>
 
 <body data-spy="scroll" data-target="#nav">
     <nav class="navbar fixed-top navbar-toggleable navbar-light bg-faded">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#"><span class="logo-first">扭蛋地圖</span></a>
@@ -43,19 +57,78 @@
     </nav>
 
     <header id="banner">
-        <div id="banner-fg" class="d-flex flex-column  justify-content-between">
-            <div></div>
-            <div>
-                <h1 class="display-4 banner-text">扭蛋地圖</h1>
-                <h2 class="lead banner-text">幫你找到喜愛的扭蛋</h2>
-                <br>
-                <a class="btn btn-success btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSe7NFoE1bT8XAP0E2LqdmzEmFGiFxoiMnTPfifO4VLmNuvVPQ/viewform?usp=sf_link"><i class="fas fa-american-sign-language-interpreting"></i>&nbsp;&nbsp;Get Notified When Available</a>
+        <div id="banner-ff" class="d-flex flex-row justify-content-center">
+            <!--<div class="d-flex flex-column  justify-content-between"></div> /////////-->
+            <div class = "col col-md-7 d-flex flex-column justify-content-between">
+                <div></div>
+                <div class="row container">
+                        <div id="banner-fg" class="col-md-6 col-xs-12">
+                                <div class = "header_container">
+                                    <br>
+                                    <h1 id = "first_header" class="display-4 banner-text">扭蛋地圖</h1>
+                                    <h2 class="lead banner-text">幫你找到喜愛的扭蛋</h2>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a id = "form_btn" class="btn btn-secondary btn-md" href="https://docs.google.com/forms/d/e/1FAIpQLSe7NFoE1bT8XAP0E2LqdmzEmFGiFxoiMnTPfifO4VLmNuvVPQ/viewform?usp=sf_link"><i class="fas fa-american-sign-language-interpreting"></i>&nbsp;&nbsp;Get Notified When Available</a>
+                                
+                                   
+                                </div>
+                        </div>
+                        <div id = "earth" class="col-md-6 col-xs-12">
+                            <div class = "header_container">
+                                <img src="images/420.PNG" class = "earth_img">
+                                <img src="images/270png.PNG" class = "earth_img_small">
+                            </div>
+                        </div>
+                </div>
+                <div>
+                    <h2 class="banner-text">
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </h2>
+                </div>
             </div>
-            <h2 class="banner-text">
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </h2>
         </div>
     </header>
+
+    <!-- <div id = "content" class = "site-content">
+    <section id="welcome">
+        <div class="slide yellow">
+            <div class="container full-height">
+                <div class="row welcome-row full-height">
+                    <div class="col-xs-12 col-sm-6 full-height">
+                        <h1 class="text-primary xl title" style="font-family:'Cabin'">GET<br>SLOWLY</h1>
+                        <div class="row">
+                            <p class="text-primary col-xs-11">
+                                SLOWLY lets you meet pen friends from your smartphone! Match with someone that shares
+                                your
+                                passion, write a letter and collect stamps from around the world. Speak your mind – one
+                                letter at a time! </p>
+                        </div>
+                        <div class="row row-top-2 row-btm-2" style="padding-left:5px;">
+                            <a href="https://itunes.apple.com/app/slowly/id1199811908?ls=1&amp;mt=8" target="_blank">
+                                <img src="https://www.getslowly.com/wp-content/themes/slowly/assets/img/ios-app-store.png"
+                                    style="width:auto; height:60px;position:relative;">
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.slowlyapp" target="_blank">
+                                <img src="https://www.getslowly.com/wp-content/themes/slowly/assets/img/google-play.png"
+                                    style="width:auto; height:60px;position:relative;">
+                            </a>
+                        </div>
+                        <img src="https://www.getslowly.com/wp-content/themes/slowly/assets/img/welcome-sm-bg.png"
+                            width="113" class="divider hidden-xs">
+                        <div class="scroll-msg  hidden-xs"><i class="fa fa-chevron-circle-down"></i> Scroll down to
+                            learn
+                            more</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 full-height  mobile-max-img">
+                        <img src="images/earth.PNG">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
 
     <div class="container text-center">
         <div class="row justify-content-center">
@@ -105,70 +178,102 @@
                         </div>
                     </div>
                 </section>
+            </div>
+        </div>
+    </div>
+</div>
 
+    <header id="banner3">
+        <div id="banner-fg3" class="d-flex flex-column  justify-content-between">
+            <div></div>
+            <div>
+                <h1 id = "second_header" class="display-4 banner-text">運氣總是很差?還是轉不到你所喜愛的扭蛋怎麼辦?</h1>
+                <h2 id = "second_header_comment" class="lead banner-text">沒關係，<span class="logo-first">扭蛋地圖</span>也是一個交換扭蛋的平台，你可以在這裡交換你不想要的扭蛋。</h2> 
+            </div>
+            <div>
+                <br>
+                <img src="images/000.png">
+            </div>
+        </div>
+    </header>
+
+    <div id = "price"class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col col-lg-8">
                 <section>
                     <h2 class="display-4">It's Free for Now!</h2>
                     <p>麻煩您幫我們做個十秒就能完成的調查來幫我們改善這個想法，為了表示謝意，我們將會在這個APP發行時給您<strong>免費的兌換碼</strong></p>
                     <br>
-                    <a class="btn btn-success btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSe7NFoE1bT8XAP0E2LqdmzEmFGiFxoiMnTPfifO4VLmNuvVPQ/viewform?usp=sf_link" ><i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;&nbsp;Ok, I'd Like to Help</a>
+                    <a id = "like_btn" class="btn btn-success btn-lg"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSe7NFoE1bT8XAP0E2LqdmzEmFGiFxoiMnTPfifO4VLmNuvVPQ/viewform?usp=sf_link"><i
+                            class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;&nbsp;Ok, I'd Like to Help</a>
                 </section>
             </div>
         </div>
     </div>
+</div>
 
     <header id="banner2">
         <div id="banner-fg2" class="d-flex flex-column  justify-content-between">
             <div></div>
             <div>
-                <h1 class="display-4 banner-text">您是扭蛋商家嗎?</h1>
-                <h2 class="lead banner-text">提供資訊給我們可以獲得怎樣的好處?</h2>
+                <h1 class="display-4 banner-text2">您是扭蛋商家嗎?</h1>
+                <h2 class="lead banner-text2">提供資訊給我們可以獲得怎樣的好處?</h2>
             </div>
-            <h2 class="banner-text">
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </h2>
+            <div></div>
         </div>
     </header>
 
-    <div class ="container text-center">
-        <div class = "container_shadow">
-            
-                <div class="row">
-                
-                    <div class=" col-lg-4">
-                    <img class="rounded-circle" src="./images/eye.PNG" alt="Generic placeholder image" width="140" height="140">
+    <div class="container text-center">
+        <div class="container_shadow">
+
+            <div class="row">
+
+                <div class=" col-lg-4">
+                    <img class="rounded-circle" src="./images/eye.PNG" alt="Generic placeholder image" width="140"
+                        height="140">
                     <h2>可見度</h2>
                     <p>當使用者嘗試尋找他想要的扭蛋時，他可以輕易地利用這個APP搜尋到您的店家，這也意味著您的可見度可以獲得大幅提升</p>
                     <!--<p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Manifold" role="button">View details »</a></p>-->
-                    </div>
-                    <div class=" col-lg-4">
-                    <img class="rounded-circle" src="./images/wrench.PNG" alt="Generic placeholder image" width="140" height="140">
+                </div>
+                <div class=" col-lg-4">
+                    <img class="rounded-circle" src="./images/wrench.PNG" alt="Generic placeholder image" width="140"
+                        height="140">
                     <h2>管理</h2>
                     <p>使用者能對扭蛋的喜愛度進行評價，所以您可以輕易地了解流行趨勢，更直接地知道哪個扭蛋最受歡迎，這能幫助您在進貨時更好掌控數量。</p>
                     <!--<p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Polar_coordinate_system" role="button">View details »</a></p>-->
-                    </div>
-                    <div class=" col-lg-4">
-                    <img class="rounded-circle" src="./images/money.PNG" alt="Generic placeholder image" width="140" height="140">
+                </div>
+                <div class=" col-lg-4">
+                    <img class="rounded-circle" src="./images/money.PNG" alt="Generic placeholder image" width="140"
+                        height="140">
                     <h2>發大財</h2>
                     <p>隨著您的可見度提高，您提供的商品更符合流行趨勢，要提升營業額就不是難事!</p>
                     <!--<p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Hilbert_space" role="button">View details »</a></p>-->
-                    </div>
                 </div>
-            
+            </div>
+
         </div>
     </div>
-    
+
     <footer id="footer" class=".navbar-offset">
         <section>
             <h2 class="text-center">About</h2>
         </section>
-        <p class="text-center">We are students who believe can make the world a little bit better by writing good software.</p>
+        <p class="text-center">We are students who believe can make the world a little bit better by writing good
+            software.</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+    </script>
 
-    <script src="scripts/main.js"></script>
+    <!--<script src="scripts/main.js"></script>-->
 </body>
 
 </html>

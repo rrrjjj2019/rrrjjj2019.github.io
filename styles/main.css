@@ -5,30 +5,82 @@ html, body {
 
 #banner {
     height: 100%;
+    width:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+     background-size: cover;
     -o-background-size: cover;
-    background-position: center;
-    background-image: url("../images/banner.jpg");
-    background-attachment: fixed;
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/banner_taiwan.jpg");  */
+     background-color: rgba(255, 196, 0, 1);
+    /* background-attachment: fixed; */
 }
 
 @media (max-width: 575px){
     #banner{
         background-attachment: scroll;
+        /* height:160%; */
     }
 }
 
 #banner-fg {
+    height: 55%;
+    text-align: center;
+    /* background-color: rgba(255, 196, 0, 1); 
+     background-image: url("../images/earth.png");*/
+}
+
+#banner-ff {
     height: 100%;
     text-align: center;
-    /* background-color: rgba(240, 149, 121, 0.6) */
+    
+    /* background-color: rgba(255, 196, 0, 1); 
+     background-image: url("../images/earth.png"); */
+}
+
+#earth {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    text-align: center;
+    /* background-color: rgba(255, 196, 0, 1);  
+    background-image: url("../images/earth.png");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#form_btn{
+    background-color: rgb(20, 3, 3);
+    color: aliceblue;
+    border-color:rgb(20, 3, 3);
+}
+
+#like_btn{
+    background-color: rgb(231, 194, 31);
+    color: rgb(0, 2, 3);
+    border-color: rgb(218, 231, 31);
 }
 
 .banner-text {
-    text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.7);
-    color: #fff;
+    /* text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.7); */
+    color: rgb(7, 1, 1);
+    
+}
+
+#first_header{
+    font-weight:800;
+    font-size: 5.5rem;
+}
+
+@media(max-width:500px){
+    #first_header{
+        font-weight:600;
+        font-size: 3.8rem;
+    }
 }
 
 #banner-fg a:active {
@@ -116,6 +168,11 @@ footer {
     background-attachment: scroll;
 }
 
+.banner-text2{
+    text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
 #banner-fg2 {
     height: 100%;
     text-align: center;
@@ -149,4 +206,166 @@ footer {
     .container_shadow{
         height:53rem;
     }
+    .earth_img{
+        display: none;
+    }
+    
 }
+
+@media(min-width: 620px){
+    .earth_img_small{
+        display: none;
+    }
+}
+
+.header_container{
+      /* position: absolute;   */
+     margin: auto auto; 
+}
+
+ .relative{
+    position: relative;
+} 
+
+#banner3 {
+    margin-top: 2rem; 
+    height: 63%;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     background-size: cover;
+    -o-background-size: cover;
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/banner_taiwan.jpg");  */
+     background-color: rgba(219, 224, 227, 1);
+    /* background-attachment: fixed; */
+}
+
+#banner-fg3 {
+    padding-top:2rem;
+    height: 63%;
+    text-align: center;
+    /* background-color: rgba(108, 148, 223, 0.6); */
+}
+
+#second_header{
+    font-weight:350;
+    font-size: 2.4rem;
+}
+
+#second_header_comment{
+    font-size: 1.2rem;
+}
+
+@media(max-width:700px){
+    #second_header{
+        font-weight:350;
+        font-size: 1.5rem;
+    }
+    #second_header_comment{
+        font-size: 0.8rem;
+    }
+}
+
+
+/* .slide.yellow {
+    background: #ffc400;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.full-height {
+    height: 100%;
+}
+@media (min-width: 1280px){
+    .container {
+        width: 1030px;
+    }
+}
+
+@media (min-width: 1052px){
+    .container {
+        width: 1030px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }
+}
+
+.container_for_welcome {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.welcome-row {
+    height: 100%;
+    position: relative;
+}
+
+h1.xl.title {
+    padding-top: 15%;
+}
+@media (min-width: 1280px){
+    h1.xl {
+        font-size: 100px;
+    }
+}
+
+h1.xl {
+    font-size: 80px;
+    line-height: .98em;
+    letter-spacing: .05em;
+}
+.text-primary {
+    color: #081d3c;
+}
+
+.row-btm-2 {
+    margin-bottom: 20px;
+}
+.row-top-2 {
+    margin-top: 20px;
+}
+
+.scroll-msg {
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+}
+
+@media (min-width: 768px){
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px){
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#welcome {
+    width: 100%;
+    margin-top: -100px;
+    padding-top: 100px;
+    height: 100vh;
+} */

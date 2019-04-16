@@ -2,16 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138417574-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-138417574-1');
-</script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -24,6 +14,24 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WLXDMHB');
+    </script>
+    <!-- End Google Tag Manager -->
 
     <title>扭蛋地圖</title>
 </head>
@@ -59,28 +67,31 @@
     <header id="banner">
         <div id="banner-ff" class="d-flex flex-row justify-content-center">
             <!--<div class="d-flex flex-column  justify-content-between"></div> /////////-->
-            <div class = "col col-md-7 d-flex flex-column justify-content-between">
+            <div class="col col-md-7 d-flex flex-column justify-content-between">
                 <div></div>
                 <div class="row container">
-                        <div id="banner-fg" class="col-md-6 col-xs-12">
-                                <div class = "header_container">
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <h1 id = "first_header" class="display-4 banner-text">扭蛋地圖</h1>
-                                    <h2 class="lead banner-text">幫你找到喜愛的扭蛋</h2>
-                                    <br>
-                                    <a id = "form_btn" class="btn btn-secondary btn-md" href="https://docs.google.com/forms/d/e/1FAIpQLSe7NFoE1bT8XAP0E2LqdmzEmFGiFxoiMnTPfifO4VLmNuvVPQ/viewform?usp=sf_link"><i class="fas fa-american-sign-language-interpreting"></i>&nbsp;&nbsp;Get Notified When Available</a>
-                                
-                                   
-                                </div>
+                    <div id="banner-fg" class="col-md-6 col-xs-12">
+                        <div class="header_container">
+                            <br>
+                            <br>
+                            <br>
+                            <h1 id="first_header" class="display-4 banner-text">扭蛋地圖</h1>
+                            <h2 class="lead banner-text">幫你找到喜愛的扭蛋</h2>
+                            <br>
+                            <a id="form_btn" class="btn btn-secondary btn-md"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSe7NFoE1bT8XAP0E2LqdmzEmFGiFxoiMnTPfifO4VLmNuvVPQ/viewform?usp=sf_link"><i
+                                    class="fas fa-american-sign-language-interpreting"></i>&nbsp;&nbsp;Get Notified When
+                                Available</a>
+
+
                         </div>
-                        <div id = "earth" class="col-md-6 col-xs-12">
-                            <div class = "header_container">
-                                <img src="images/420.png" class = "earth_img">
-                                <img src="images/270png.png" class = "earth_img_small">
-                            </div>
+                    </div>
+                    <div id="earth" class="col-md-6 col-xs-12">
+                        <div class="header_container">
+                            <img src="images/420.png" class="earth_img">
+                            <img src="images/270png.png" class="earth_img_small">
                         </div>
+                    </div>
                 </div>
                 <div>
                     <h2 class="banner-text">
@@ -181,14 +192,15 @@
             </div>
         </div>
     </div>
-<!-- </div> -->
+    <!-- </div> -->
 
     <header id="banner3">
         <div id="banner-fg3" class="d-flex flex-column  justify-content-between">
             <div></div>
             <div>
-                <h1 id = "second_header" class="display-4 banner-text">運氣總是很差?</h1>
-                <h2 id = "second_header_comment" class="lead banner-text">沒關係，<span class="logo-first">扭蛋地圖</span>也是一個交換扭蛋的平台，你可以在這裡交換你不想要的扭蛋。</h2> 
+                <h1 id="second_header" class="display-4 banner-text">運氣總是很差?</h1>
+                <h2 id="second_header_comment" class="lead banner-text">沒關係，<span
+                        class="logo-first">扭蛋地圖</span>也是一個交換扭蛋的平台，你可以在這裡交換你不想要的扭蛋。</h2>
             </div>
             <div>
                 <br>
@@ -197,27 +209,27 @@
         </div>
     </header>
 
-    <div id = "price" class="container text-center">
+    <div id="price" class="container text-center">
         <div class="row justify-content-center">
             <div class="col col-lg-8">
                 <section>
                     <h2 id="header_business2" class="display-4">It's Free for Now!</h2>
                     <p>麻煩您幫我們做個十秒就能完成的調查來幫我們改善這個想法，為了表示謝意，我們將會在這個APP發行時給您<strong>免費的兌換碼</strong></p>
                     <br>
-                    <a id = "like_btn" class="btn btn-success btn-lg"
+                    <a id="like_btn" class="btn btn-success btn-lg"
                         href="https://docs.google.com/forms/d/e/1FAIpQLSe7NFoE1bT8XAP0E2LqdmzEmFGiFxoiMnTPfifO4VLmNuvVPQ/viewform?usp=sf_link"><i
                             class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;&nbsp;Ok, I'd Like to Help</a>
                 </section>
             </div>
         </div>
     </div>
-<!-- </div> -->
+    <!-- </div> -->
 
     <header id="banner2">
         <div id="banner-fg2" class="d-flex flex-column  justify-content-between">
             <div></div>
             <div>
-                <h1 id = "header_business" class="display-4 banner-text2">您是扭蛋商家嗎?</h1>
+                <h1 id="header_business" class="display-4 banner-text2">您是扭蛋商家嗎?</h1>
                 <h2 class="lead banner-text2">提供資訊給我們可以獲得怎樣的好處?</h2>
             </div>
             <div></div>
@@ -273,7 +285,12 @@
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
     </script>
 
-    <!--<script src="scripts/main.js"></script>-->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLXDMHB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
